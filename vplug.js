@@ -77,7 +77,9 @@
 	}
 
 	// Pirvate Functions
+
 	
+	//
 	function attachVideo() {
 		if(!this.attached){
 			// min height parent element to keep website in position
@@ -88,7 +90,7 @@
 			this.vid.style.top = this.options.top+"px";
 			this.vid.style.right = this.options.right+"px";
 
-			return this.attached = true;
+			this.attached = true;
 		}
 	}
 
@@ -103,7 +105,7 @@
 		obj.vid.style.right = "0px";
 		// Cant append because video would reload 
 		// document.getElementById(video_parent).appendChild(obj.vid);
-		return this.attached = false;	
+		this.attached = false;	
 	}
 	
 
