@@ -1,0 +1,6 @@
+{
+  "name": "Videoplugin",
+  "tagline": "A plugin that fixes the iframe when video is no longer visible",
+  "body": "### VideoBuddy instructions.\r\nA plugin that fixes the iframe on the window when video is no longer visible.\r\n\r\nTo execute the plugin properly you should\r\n\r\n    # Config the attributes where, \r\n\r\n    var myvide = new Vplugin({\r\n        video: 'videoID',           -> Video ID\r\n        vwidth: 250,                    -> Width that video will have after attached\r\n        vheight: 200,                 -> Height that video will have after attached\r\n        top: 25,                          -> Distance from the top\r\n        right: 20                       -> Distance from the right\r\n    });\r\n\r\nAnd after that you are able to init the plugin simply by doing:\r\n\r\n    myvide.init();\r\n\r\nNow, when you scroll past your iframe you will see it move to the top right of your page. Scrolling back up should put the video on the original position.\r\n\r\nEnjoy :)\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
