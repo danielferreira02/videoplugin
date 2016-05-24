@@ -1,5 +1,6 @@
 # VideoBuddy plugin
 A plugin that fixes the iframe on the window when video is no longer visible.
+http://amzuh.github.io/videoplugin/
 
 To execute the plugin properly you should 
 
